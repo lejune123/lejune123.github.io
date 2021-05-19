@@ -19,5 +19,5 @@ y1 = np.sin(x1)
 plt.subplot(1,2,2)
 # plt.title(u"测试2") #注意：在前面加一个u
 plt.title(r'$f(x)=sin(\omega x), \omega = \frac{3}{8} \pi$') 
-plt.plot(x1, y1)
+plt.plot(x, y1)
 plt.show()
